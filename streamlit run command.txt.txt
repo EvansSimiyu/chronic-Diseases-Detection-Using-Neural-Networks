@@ -1,0 +1,6 @@
+streamlit run /home/evans/diseases_pred_cnn/diseases_prediction_cnn.py
+
+
+
+
+
