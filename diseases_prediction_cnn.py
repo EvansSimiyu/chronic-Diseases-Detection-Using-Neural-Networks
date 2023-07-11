@@ -16,11 +16,11 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 
 #saved models
-diabetes_model =load_model("/home/evans/diseases_pred_cnn/diabetes_detection_cnn.h5")
+diabetes_model =load_model("diabetes_detection_cnn.h5")
 
-heart_disease_model =load_model("/home/evans/diseases_pred_cnn/heart_disease_prediction_cnn.h5")
-parkinson_disease_model =load_model("/home/evans/diseases_pred_cnn/parkinson_disease_pred_cnn.h5")
-breast_cancer_model =load_model("/home/evans/diseases_pred_cnn/breast_cancer_classification_cnn.h5")
+heart_disease_model =load_model("heart_disease_prediction_cnn.h5")
+parkinson_disease_model =load_model("parkinson_disease_pred_cnn.h5")
+breast_cancer_model =load_model("breast_cancer_classification_cnn.h5")
 
 #scaler
 scaler = StandardScaler()
